@@ -18,7 +18,7 @@ while True:
         attempts += 1
         print("Attempts", attempts , "of ", max_attempts)
         if guess < secret_number:
-            print("Your is too low.Try again")
+            print("Your guess is too low.Try again")
         elif guess > secret_number:
             print("Your guess is too high.Try again")
         else:
